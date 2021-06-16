@@ -1,0 +1,24 @@
+$primary-color: #548796;
+$secondary-color: #FFC857;
+$primary-text-color: #eeeeee;
+$secondary-text-color: #330F0A;
+$accent-color: #0b5563;
+$accent-text-color: $primary-text-color;
+$background-primary-color: #f0f0f0;
+
+* {
+    font-family: 'Helvetica';
+}
+
+body {
+    margin: 0;
+    background-color: $background-primary-color;
+}
+
+/*div {
+    background-color: $background-primary-color;
+}*/
+
+a:link, a:visited {
+    color: $accent-color;
+}

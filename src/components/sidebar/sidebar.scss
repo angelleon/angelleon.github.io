@@ -1,0 +1,11 @@
+@import '../../sass/variables';
+
+.sidebar-component {
+    height: 100vh;
+    width: 20vw;
+    background: $primary-color;
+    display: inline-block;
+    z-index: -1;
+    position: fixed !important;
+    top: 0;
+}

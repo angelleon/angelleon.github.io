@@ -1,0 +1,18 @@
+@import '../../sass/variables';
+
+.session-component, .session-action {
+    background: $primary-color;
+    color: $primary-text-color;
+    display: inline-block;
+}
+
+.session-component {
+    //position: absolute;
+    float: right;
+    right: 0;
+}
+
+.session-action {
+    padding-left: 1em;
+    padding-right: 1em;
+}
